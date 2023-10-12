@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EN ARMONIA RESIDENCIA</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <!-- Icons Google -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <!-- google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <!-- AOS ANIMACION IMAGENES -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <!-- CSS hoja de estilos -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NavBar Bootstrap -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img class="img-logo" src="images/logo.png" alt="logo" />
+        <a class="navbar-brand" href="#">En Armonía </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#inicio">Inicio</a>
+            <a class="nav-link" href="#nuestroHogar">Nuestro Hogar</a>
+            <a class="nav-link" href="#imagenes">Imagenes</a>
+            <a class="nav-link" href="#servicios">Servicios</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <img
+      class="img-abuelos"
+      src="images/abuelos.jpg"
+      alt="Imagen pareja de abuelos" 
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    />
+
+    <!-- SECTION NOSOTROS -->
+    <div class="seccion">
+      <h2 id="nuestroHogar">Nuestro Hogar</h2>
+    </div>
+    <h3>
+      En el Hogar Residencial EN ARMONIA trabajamos con vocación por nuestros
+      adultos mayores, sabemos lo importante que ellos son para vos, dejalos en
+      nuestras manos...
+    </h3>
+
+    <div class="sec-nosotros">
+      <div class="sec-nosotros-texto">
+        <p>
+          Somos una Residencia para adultos mayores que trabaja con un equipo
+          interdiciplinario que consta de:
+        </p>
+
+        <ul>
+          <li>Médicos</li>
+          <li>Enfermeras</li>
+          <li>Nutricionistas</li>
+          <li>Kinesiólogos</li>
+          <li>Nutricionistas</li>
+          <li>Talleristas</li>
+        </ul>
+
+        <p>
+          Realizamos una amplia variedad de actividades de esparcimiento y
+          recreativas para estimular los sentidos y mejorar la calidad de vida
+          de nuestros residentes. Las mismas son rotadas segun calendario y
+          programación de nuestros talleristas:
+        </p>
+
+        <ul>
+          <li>Taller de memoria</li>
+          <li>Taller de arte</li>
+          <li>Taller de música</li>
+          <li>Paseos programados</li>
+        </ul>
+      </div>
+      <div sec-nosotros-img>
+        <img class="img-arte" src="images/arte.jpg" alt="imagen de pinceles" data-aos="fade-up"
+        data-aos-duration="1000"/>
+        <img class="img-arte" src="images/ceramica.jpg" alt="imagen ceramica" data-aos="fade-up"
+        data-aos-duration="1000"/>
+      </div>
+    </div>
+
+    <div class="sec-nosotros">
+      <p class="sec-nosotros-texto">
+        Nuestra residencia consta de cuartos compartidos para abuelos y abuelas,
+        sector de comedor, sala de estar y esparcimiento, enfermeria y
+        corredores adaptados a las distintos tipos de movilidad, con pisos
+        antideslizantes rodeado de luz natural.
+      </p>
+    </div>
+
+    <!-- CAROUSEL -->
+    <div class="seccion">
+      <h2 id="imagenes">Imágenes</h2>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/exterior.jpg"
+            class="pic d-block w-100"
+            alt="Imagen exterior"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Exterior Residencia</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/estar.jpg"
+            class="pic d-block w-100"
+            alt="Imagen estar"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Sala de estar</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/habitaciones.jpg"
+            class="pic d-block w-100"
+            alt="Imagen habitacion"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Habitaciones</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/enfermeria.jpg"
+            class="pic d-block w-100"
+            alt="Imagen enfermeria"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Sala de enfermeria</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/corredores.jpg"
+            class="pic d-block w-100"
+            alt="Imagen corredores"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Corredores adaptados</h5>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- SECTION SERVICIOS -->
+    <div class="seccion">
+        <h2 id="servicios">Nuestros Servicios</h2>
+      </div>
+    <div class="trio">
+      <div class="item item1">
+        <span class="material-symbols-outlined">medication</span>
+        <h2 class="titulo-trio">Profesionales</h2>
+        <h4>Atención Personalizada</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+          architecto nihil enim sed reiciendis in expedita suscipit ipsum vero
+          doloribus quam beatae laboriosam nostrum quos quo, dignissimos neque
+          animi sapiente.
+        </p>
+      </div>
+      <div class="item item2">
+        <span class="material-symbols-outlined">brush</span>
+        <h2 class="titulo-trio">Actividades</h2>
+        <h4>Nuestros Talleres</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          ratione quaerat adipisci possimus quidem doloremque laborum, cum quas
+          expedita, cupiditate consectetur? Fuga ullam minima blanditiis
+          voluptates ducimus dolore voluptatum amet!
+        </p>
+      </div>
+      <div class="item item3">
+        <span class="material-symbols-outlined">volunteer_activism</span>
+        <h2 class="titulo-trio">Servicios</h2>
+        <h4>La calidez del Hogar</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
+          molestias, quaerat dolor odio iure corporis mollitia excepturi facilis
+          veniam amet molestiae, beatae placeat quisquam accusamus quae soluta
+          laboriosam quo perspiciatis hubius alatevu seruin diquen.
+        </p>
+      </div>
+    </div>
+
+    <!-- SECTION CONTACTO -->
+    <div class="seccion">
+      <h2 id="contacto">Contacto</h2>
+    </div>
+    <h3>Contactate con nosotros para un asesoramiento personalizado.</h3>
+    <p class="texto-contacto">
+      Comunicate con nuestros asesores a través de nuestra linea de What´s App,
+      a traves de nuestras redes o en nuestra sede de Mar del Plata
+    </p>
+    <div class="trio-contacto">
+      <div class="contacto contacto1">
+        <h3><span class="material-symbols-outlined">location_on</span></h3>
+        <h2 class="titulo-trio">Ubicación</h2>
+        <h3>Encontranos en Savio 1454, Mar del Plata</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.521475313389!2d-57.5750991!3d-38.034933900000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584de8ad09a5713%3A0x3a139ff3db34a494!2sGral.%20Savio%201454%2C%20B7608BEF%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1697036239437!5m2!1ses!2sar"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        ></iframe>
+      </div>
+      <div class="contacto contacto2">
+        <h3><span class="material-symbols-outlined">phone_in_talk</span></h3>
+        <h2 class="titulo-trio">Teléfono</h2>
+        <h3>Comunicate de forma telefónica o a traves de What´s App</h3>
+        <h3>2236 32 1870</h3>
+        <a target= “_blank”
+          href="https://wa.me/542236321870?text=Hola%2C+quisiera+solicitar+asesoramiento+sobre+la+residencia.+Muchas+Gracias%21"
+        >
+          <img
+            class="wp"
+            src="images/wp.png"
+            alt="logo de whatsapp"
+            height="50"
+            width="50"
+        /></a>
+        <h3>Envianos un mensaje de What´s App</h3>
+      </div>
+      <div class="contacto contacto3">
+        <h3><span class="material-symbols-outlined">language</span></h3>
+        <h2 class="titulo-trio">Redes Sociales</h2>
+        <h3>Envianos un inbox por Facebook e Intagram</h3>
+
+        <a target= “_blank” href="https://www.facebook.com/profile.php?id=61551990959086">
+          <img
+            class="redes"
+            src="images/facebook.png"
+            alt="logo de facebook"
+            height="40"
+            width="40"
+          />
+        </a>
+        <p class="center">residenciageriatricaenarmonia</p>
+        <a target= “_blank”  href="https://www.instagram.com/residenciageriatricaenarmonia/">
+          <img
+            class="redes"
+            src="images/instagram.png"
+            alt="logo de instagram"
+            height="40"
+            width="40"
+          />
+        </a>
+        <p class="center">residenciageriatricaenarmonia</p>
+      </div>
+    </div>
+
+    <footer>
+        <hr>    
+        <p class="foot" >DESARROLLADO POR GMT DEVELOPER</p>
+        <p class="foot">  Copyright © 2023 En Armonia</p>
+    </footer>
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
